@@ -1,0 +1,142 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(38, 255, 85);
+
+}
+body{
+    background-position: center top;
+    background-size: cover;
+}
+
+#menu-h {
+    background-color: black;
+    text-align: center;
+    font-size: medium;
+ 
+    
+}
+
+#menu-h ul  {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+   }
+#menu-h ul li {
+    display: inline;
+    
+}
+#menu-h ul li a {
+    color:white;
+    padding:20px;
+    display: inline-block;
+    text-decoration:none;
+    transition: background .4s;
+}
+#menu-h ul li a:hover {
+   background-color:rgb(24, 139, 233);
+   }
+  .peças{
+    border: 1px solid #ccc;
+    padding:10px;
+    margin-bottom: 10px;
+  }
+  .acessorios{
+    border: 1px solid #ccc;
+    padding:10px;
+    margin-bottom: 10px;
+  }
+
+#carrinho{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+    #itens-carrinho{
+    list-style-type: none;
+    padding: 0;
+  }
+  footer{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .cart {
+	font-size: 24px;
+	color: #000;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  font-family: Verdana,Tahoma,sans-serif;
+  font-size: 15px;
+  background-color: #CC3300;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: black;
+  text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #FFFF00;
+  
+  color: black;
+  font-weight: bold;
+}
+
+.enviar {
+
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
+.content-carrinho a {
+  padding-right: 40px;
+}
+
+.content-carrinho span {
+  color:rgb(14, 14, 75);
+  font-size: 42px;
+  float: right ;
+}

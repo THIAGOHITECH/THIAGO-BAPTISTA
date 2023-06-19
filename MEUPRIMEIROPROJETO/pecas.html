@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peças</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+   
+    <div class="content-carrinho d-flex">
+        <a href=""><span class="fa fa-shopping-cart" aria-hidden="true"></span></a>
+    </div>
+    <header>
+        <div id="peças">
+            <div class="peça">
+                <div style="overflow: auto;">
+                    <div style="float: left; width: 50%;">
+                <div style="float: left; width: 50%;"></div>
+                <img src="pag002/pastilhafreio.webp" alt="peça1">
+                <h2>Pastilha de freio</h2>
+                <p>Pastilha de freio mt03 por 49.90</p>
+                <button onclick="adicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="peça">
+                <div style="float: left; width: 50%;">
+                <img src="pag002/bateria brandy.webp" alt="peça2">
+                <h2>Bateria</h2>
+                <p>Bateria Biz 125 2015 por 150,00</p>
+                <button onclick="adicionarAoCarrinho(2)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="peça">
+            <div style="float: left; width: 50%;">
+            <div style="float: left; width: 50%;"></div>
+            <img src="pag002/oleo.webp" alt="peça3">
+            <h2>Óleo Mobil</h2>
+            <p>Óleo Mobil motos acima de 150cc por 49,90</p>
+            <button onclick="adicionarAoCarrinho(3)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="peça">
+            <div style="float: left; width: 50%;"></div>
+            <img src="pag002/aroroda.webp" alt="peça4">
+            <h2>Aro</h2>
+            <p>Aro roda 18 impotado 129,90</p>
+            <button onclick="adicionarAoCarrinho(4)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="peça">
+            <div style="float: left; width: 50%;">
+            <div style="float: left; width: 50%;"></div>
+            <img src="pag002/embreagem.webp" alt="peça5">
+            <h2>Embreagem</h2>
+            <p>Embreagem completa CG titan2000 e 125 Bross por 155,90</p>
+            <button onclick="adicionarAoCarrinho(5)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="peça">
+                <div style="float: left; width: 50%;">
+                <div style="float: left; width: 50%;"></div>
+                <img src="pag002/kitvaz.webp" alt="peça6">
+                <h2>Kit Relaão </h2>
+                <p>Kit Relação Vaz com retentor XR 250 por 299,90</p>
+                <button onclick="adicionarAoCarrinho(6)">Adicionar ao Carrinho</button>
+                </div>
+
+        <div id="carrinho">
+            <ul id="itens-carrinho">
+            </ul>
+            <button onclick="LimparCarrinho()">Limpar Carrinho</button>
+        </div>
+    </header>
+    
+</body>
+</html>
+
+
